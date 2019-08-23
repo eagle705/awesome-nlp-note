@@ -45,6 +45,7 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 - [Customized KoNLPy](https://github.com/lovit/customized_konlpy)
 - [용래님 pytorch Transformer](https://github.com/dreamgonfly/Transformer-pytorch)
 - [Korean NER Dataset Github](https://github.com/machinereading/KoreanNERCorpus)
+- [송영숙님 Korean Chitchat Dataset with Sentiment](https://github.com/songys/Chatbot_data)
 - [Chatbot API open source example](https://github.com/alfredfrancis/ai-chatbot-framework)
 - [Awesome Python](https://github.com/JoMingyu/--Awesome-Python--)
 - [Yunjey의 PyTorch Tutorial](https://github.com/yunjey/pytorch-tutorial)
@@ -52,6 +53,9 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 - [NER_TensorFlow_2017_HCLT](https://github.com/JudeLee19/korean_ner_tagging_challenge)
 - [이기창님 깃헙 블로그 소스](https://github.com/ratsgo/ratsgo.github.io)
 - [현재 쓰고 있는 깃헙 블로그 소스](https://github.com/isme2n/isme2n.github.io)
+- [PyTorch Wrapper, pytorch-lightning](https://github.com/williamFalcon/pytorch-lightning)
+- [Pycon 2019 Tutorial GluonNLP tutorial](https://github.com/seujung/gluonnlp_tutorial?fbclid=IwAR1dVxeXYp06Zr4h4OFjL38W6enZ4SjJd27n7MSkmt4v9wKOtj9Sol5B3Es)
+- [matplotlib + 한글](https://financedata.github.io/posts/matplotlib-hangul-for-ubuntu-linux.html?fbclid=IwAR0WNVxF5cMRLUhdug10fWGdZzwZ1YES88xD4UPW4pOFSvQgovu_xf5Kb4c)
 
 ## Research Summaries and Trends
 
@@ -150,10 +154,10 @@ Blogs and Newsletters
   - [Kashgari](https://github.com/BrikerMan/Kashgari) - Simple, Keras-powered multilingual NLP framework, allows you to build your models in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.
 
 ### Annotation Tools
-
+- [Label Studio](https://github.com/heartexlabs/label-studio?fbclid=IwAR30j2OmVMcB-TenAczkNwwUsObi8JAOpTNxGFzrmMrJ2pd4-gg_S0D3S78)  is an open-source, configurable data annotation tool. Its purpose is to enable you to label different types of data using the most convenient interface with a standardized output format.
+- [brat](https://brat.nlplab.org/) - brat rapid annotation tool is an online environment for collaborative text annotation
 - [GATE](https://gate.ac.uk/overview.html) - General Architecture and Text Engineering is 15+ years old, free and open source
 - [Anafora](https://github.com/weitechen/anafora) is free and open source, web-based raw text annotation tool
-- [brat](https://brat.nlplab.org/) - brat rapid annotation tool is an online environment for collaborative text annotation
 - [doccano](https://github.com/chakki-works/doccano) - doccano is free, open-source, and provides annotation features for text classification, sequence labeling and sequence to sequence
 - [tagtog](https://www.tagtog.net/), costs $
 - [prodigy](https://prodi.gy/) is an annotation tool powered by active learning, costs $
