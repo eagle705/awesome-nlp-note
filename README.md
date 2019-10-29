@@ -13,29 +13,32 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 
 ## Contents
 * [Blogs](#blogs)
-* [Github](#github)
+* [Github](#github)]
 * [Research Summaries and Trends](#research-summaries-and-trends)
+* [Environment](#environment)
 * [NLP in Korean](#nlp-in-korean)
   * [Datasets](#datasets)
 * [Tutorials](#tutorials)
   * [Reading Content](#reading-content)
   * [Videos and Courses](#videos-and-online-courses)
 * [Libraries](#libraries)
-  * [Python](#user-content-python)
-
 * [Annotation Tools](#annotation-tools)
 
 
-## Blogs
-
+## Blogs & Youtube
 - [핑퐁 BERT](https://blog.pingpong.us/dialog-bert-pretrain/?fbclid=IwAR3UQ1VBnkf8Fcpqa5kzGknrs2PySQJCB97v0UOHUvOk6CiYCfASo4Tosr8)
 - [핑퐁 띄어쓰기](https://blog.pingpong.us/spacing/?fbclid=IwAR21WUYVaJZ8HijcyGx6tfIiw_oTrfhrUXUYBGypNCG0qtNhlQmJQByJzZI)
 - [dsindex's blog](https://dsindex.github.io/)
 - [Kangwon University's NLP course in Korean](http://cs.kangwon.ac.kr/~leeck/NLP/)
 - [파이썬 키워드 인자 *](https://sjquant.tistory.com/31?fbclid=IwAR3rCNBXC5-wNCZbwW0XV9AWuAKjFgLFlmPdd73f9hpOqNtysx60VzqIL54)
+- [딥러닝 용어사전](http://www.wildml.com/deep-learning-glossary/)
+- [arXIV 작성법](https://brunch.co.kr/@gimmesilver/34)
+- [박규병님의 Deep Learning Career FAQ](https://github.com/Kyubyong/dl_career_faq?fbclid=IwAR3VDb4oHVr82WGw9H4WN9k34BJ906u8Oah3LGUawu24L0pBMEbeKAO301o)
+- [Algorith Youtube Channel](https://www.youtube.com/user/damazzang/videos)
+
 
 ## GitHub
-
+- [한국어 문서 -> 문장 분류기 (중요)](https://github.com/likejazz/korean-sentence-splitter)
 - [핑퐁에서 만든 띄어쓰기 모델_Chatspace](https://github.com/pingpong-ai/chatspace?fbclid=IwAR3LQCIBnRNyMMUfh3SzrYc_DMIRnSzQCVtjpSzQaXk-prpzlDTsRVqndb4)
 - [Chatbot with Crawler](https://github.com/gusdnd852/Chatbot)
 - [NLP RedditSota](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#nlp)
@@ -56,6 +59,12 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 - [PyTorch Wrapper, pytorch-lightning](https://github.com/williamFalcon/pytorch-lightning)
 - [Pycon 2019 Tutorial GluonNLP tutorial](https://github.com/seujung/gluonnlp_tutorial?fbclid=IwAR1dVxeXYp06Zr4h4OFjL38W6enZ4SjJd27n7MSkmt4v9wKOtj9Sol5B3Es)
 - [matplotlib + 한글](https://financedata.github.io/posts/matplotlib-hangul-for-ubuntu-linux.html?fbclid=IwAR0WNVxF5cMRLUhdug10fWGdZzwZ1YES88xD4UPW4pOFSvQgovu_xf5Kb4c)
+- [API basd Chatbot example](https://github.com/gusdnd852/Chatbot)
+- [NLP tutorial by lyeoni](https://github.com/lyeoni/nlp-tutorial)
+- [tmux 셋팅](https://github.com/gpakosz/.tmux)
+- [CRF!!! harvardnlp/pytorch-struct](https://github.com/harvardnlp/pytorch-struct)
+- [RL Chatbot1](https://github.com/pochih/RL-Chatbot)
+- [RL Chatbot2](https://github.com/maxbren/GO-Bot-DRL)
 
 ## Research Summaries and Trends
 
@@ -69,6 +78,8 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 * [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
 * [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
 
+## Environment
+- [Docker](http://moducon.kr/2018/wp-content/uploads/sites/2/2018/12/leesangsoo_slide.pdf)
 
 ## NLP in Korean
 
@@ -79,15 +90,17 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 - [KoNLPy](http://konlpy.org) - Python package for Korean natural language processing.
 - [Mecab (Korean)](https://eunjeon.blogspot.com/) - C++ library for Korean NLP
 - [KoalaNLP](https://koalanlp.github.io/koalanlp/) - Scala library for Korean Natural Language Processing.
-- [KoNLP](https://cran.r-project.org/package=KoNLP) - R package for Korean Natural language processing
+
 
 
 
 ### Datasets
-
+- [Korean WordNet](http://wordnet.kaist.ac.kr/)
 - [KAIST Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) - A corpus from the Korea Advanced Institute of Science and Technology in Korean.
 - [Naver Sentiment Movie Corpus in Korean](https://github.com/e9t/nsmc/)
 - [Chosun Ilbo archive](http://srchdb1.chosun.com/pdf/i_archive/) - dataset in Korean from one of the major newspapers in South Korea, the Chosun Ilbo.
+- [NER dataset from 한국해양대학교 자연언어처리연구실](https://github.com/kmounlp/NER)
+- [PAWS and PAWS-X: Two New Datasets to Improve Natural Language Understanding Models_( Paraphrase Adversaries from Word Scrambling)](https://ai.googleblog.com/2019/10/releasing-paws-and-paws-x-two-new.html?m=1)
 
 ## Tutorials
 [Back to Top](#contents)
