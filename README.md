@@ -13,13 +13,12 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 
 ## Contents
 * [Blogs](#blogs)
-* [Github](#github)]
+* [Github](#github)
 * [Research Summaries and Trends](#research-summaries-and-trends)
 * [Environment](#environment)
 * [NLP in Korean](#nlp-in-korean)
   * [Datasets](#datasets)
 * [Tutorials](#tutorials)
-  * [Reading Content](#reading-content)
   * [Videos and Courses](#videos-and-online-courses)
 * [Libraries](#libraries)
 * [Annotation Tools](#annotation-tools)
@@ -35,9 +34,21 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 - [arXIV 작성법](https://brunch.co.kr/@gimmesilver/34)
 - [박규병님의 Deep Learning Career FAQ](https://github.com/Kyubyong/dl_career_faq?fbclid=IwAR3VDb4oHVr82WGw9H4WN9k34BJ906u8Oah3LGUawu24L0pBMEbeKAO301o)
 - [Algorith Youtube Channel](https://www.youtube.com/user/damazzang/videos)
+- [Structing your first NLP project](https://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_aisolab_file.pdf)
+- [Pypapago 개발기](https://beomi.github.io/2019/07/08/Papago-API-with-Python/)
+- [아나콘다 환경복사](https://hiseon.me/python/anaconda-env-export/)
+- [스타트업 개발자가 리눅스 서버에 들어가면 언제나 하는 작업들](https://www.mimul.com/blog/linux-server-operations/?fbclid=IwAR0VJR1YvkLy_xXTw9ltaEVsOvakysUBC4WRceVheKW5T2q-BH2jb8GqtFA)
 
 
 ## GitHub
+- [Chatbot convai2 (with retrieval via elastic)](https://github.com/atselousov/transformer_chatbot)
+- [DL dev to production](https://github.com/alirezadir/Production-Level-Deep-Learning)
+- [NL to SQL by BERT](https://github.com/guotong1988/NL2SQL-BERT)
+- [제주어 번역 및 음성 합성(박규병님)](https://github.com/kakaobrain/jejueo)
+- [beam search + nlp_mad_easy(박규병님)](https://github.com/Kyubyong/nlp_made_easy/blob/master/Beam%20Decoding.ipynb)
+- [pypapago nmt lib](https://github.com/Beomi/pypapago)
+- [makcedward/nlpaug(NLP & Signal augmentation)](https://github.com/makcedward/nlpaug)
+- [lovit의 패스트캠퍼스, 자연어처리를 위한 머신러닝 github](https://github.com/lovit/fastcampus_textml_blogs)
 - [한국어 문서 -> 문장 분류기 (중요)](https://github.com/likejazz/korean-sentence-splitter)
 - [핑퐁에서 만든 띄어쓰기 모델_Chatspace](https://github.com/pingpong-ai/chatspace?fbclid=IwAR3LQCIBnRNyMMUfh3SzrYc_DMIRnSzQCVtjpSzQaXk-prpzlDTsRVqndb4)
 - [Chatbot with Crawler](https://github.com/gusdnd852/Chatbot)
@@ -65,6 +76,8 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 - [CRF!!! harvardnlp/pytorch-struct](https://github.com/harvardnlp/pytorch-struct)
 - [RL Chatbot1](https://github.com/pochih/RL-Chatbot)
 - [RL Chatbot2](https://github.com/maxbren/GO-Bot-DRL)
+- [Evaluation Sentence Embedding (SentEval)](https://github.com/facebookresearch/SentEval)
+- [python-mecab-ko](https://github.com/jonghwanhyeon/python-mecab-ko)
 
 ## Research Summaries and Trends
 
@@ -101,33 +114,10 @@ A curated list of resources dedicated to Natural Language Processing and etc(pap
 - [Chosun Ilbo archive](http://srchdb1.chosun.com/pdf/i_archive/) - dataset in Korean from one of the major newspapers in South Korea, the Chosun Ilbo.
 - [NER dataset from 한국해양대학교 자연언어처리연구실](https://github.com/kmounlp/NER)
 - [PAWS and PAWS-X: Two New Datasets to Improve Natural Language Understanding Models_( Paraphrase Adversaries from Word Scrambling)](https://ai.googleblog.com/2019/10/releasing-paws-and-paws-x-two-new.html?m=1)
+- [conversational-AI-atasets(영어 대화 데이터셋)](https://github.com/PolyAI-LDN/conversational-datasets)
 
 ## Tutorials
 [Back to Top](#contents)
-
-### Reading Content
-
-General Machine Learning
-
-* [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) from Google's Senior Creative Engineer explains Machine Learning for engineer's and executives alike
-* [AI Playbook](https://aiplaybook.a16z.com/) - a16z AI playbook is a great link to forward to your managers or content for your presentations
-* [Ruder's Blog](http://ruder.io/#open) by [Sebastian Ruder](https://twitter.com/seb_ruder) for commentary on the best of NLP Research
-
-Introductions and Guides to NLP
-
-* [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
-* [NLP in Python](http://github.com/NirantK/nlp-python-deep-learning) - Collection of Github notebooks
-* [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - Oxford
-* [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
-* [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks
-
-Blogs and Newsletters
-
-* [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
-* [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/) and [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-* [Natural Language Processing](https://nlpers.blogspot.com/) by Hal Daumé III
-* [arXiv: Natural Language Processing (Almost) from Scratch](https://arxiv.org/pdf/1103.0398.pdf)
-* [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 
 ### Videos and Online Courses
 [Back to Top](#contents)
@@ -169,6 +159,7 @@ Blogs and Newsletters
 ### Annotation Tools
 - [Label Studio](https://github.com/heartexlabs/label-studio?fbclid=IwAR30j2OmVMcB-TenAczkNwwUsObi8JAOpTNxGFzrmMrJ2pd4-gg_S0D3S78)  is an open-source, configurable data annotation tool. Its purpose is to enable you to label different types of data using the most convenient interface with a standardized output format.
 - [brat](https://brat.nlplab.org/) - brat rapid annotation tool is an online environment for collaborative text annotation
+- [LIDA: Lightweight Interactive Dialogue Annotator (in EMNLP 2019)](https://github.com/Wluper/lida) - LIDA is an open source dialogue annotation system which supports the full pipeline of dialogue annotation from dialogue / turn segmentation from raw text
 - [GATE](https://gate.ac.uk/overview.html) - General Architecture and Text Engineering is 15+ years old, free and open source
 - [Anafora](https://github.com/weitechen/anafora) is free and open source, web-based raw text annotation tool
 - [doccano](https://github.com/chakki-works/doccano) - doccano is free, open-source, and provides annotation features for text classification, sequence labeling and sequence to sequence
